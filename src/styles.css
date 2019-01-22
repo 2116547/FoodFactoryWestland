@@ -1,12 +1,11 @@
 
 body {
+    background-image: url('https://i.imgur.com/0hSe9Lv.png');
     color:white;
     padding-top: 50px;
     background-position-x: 0px;
-    background: position y 0px;
     background-attachment: fixed;
     background-size:cover;
-    background-image: url('background.png');
     padding-bottom: 20px; 
 }
 

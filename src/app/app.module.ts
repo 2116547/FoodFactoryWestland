@@ -9,6 +9,7 @@ import { AboutComponent } from './static/about/about.component';
 import { CateringComponent } from './static/catering/catering.component';
 import { EventsComponent } from './static/events/events.component';
 import { ContactComponent } from './static/contact/contact.component';
+import { IndexComponent } from './webshop/index/index.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactComponent } from './static/contact/contact.component';
     AboutComponent,
     CateringComponent,
     EventsComponent,
-    ContactComponent
+    ContactComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,

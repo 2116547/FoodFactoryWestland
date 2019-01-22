@@ -5,6 +5,7 @@ import { AboutComponent } from './static/about/about.component';
 import { CateringComponent } from './static/catering/catering.component';
 import { EventsComponent } from './static/events/events.component';
 import { ContactComponent } from './static/contact/contact.component';
+import { IndexComponent } from './webshop/index/index.component';
 
 const routes: Routes = [
   //Homepage
@@ -32,6 +33,10 @@ const routes: Routes = [
   {
     path:'contact',
     component: ContactComponent
+  },
+  {
+    path:'webshop',
+    component: IndexComponent
   }
 ];
 

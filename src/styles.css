@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+
+body {
+    color:white;
+    padding-top: 50px;
+    background-position-x: 0px;
+    background: position y 0px;
+    background-attachment: fixed;
+    background-size:cover;
+    background-image: url('./images/background.png');
+    padding-bottom: 20px; 
+}
+
+.color-turk {
+    color: #41E0D0;
+}
+
+.half-black {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.rounding{
+    border-radius:10px;
+}
+
+button:hover {
+    color:  #41E0D0;
+    border-color: #41E0D0;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+p {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }

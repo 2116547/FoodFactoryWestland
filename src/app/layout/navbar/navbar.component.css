@@ -1,0 +1,34 @@
+
+.btn {
+    color:  white;
+ }
+
+ .btn:hover {
+     color: #41E0D0;
+ }
+
+ .navbar {
+     height: 80px;
+ }
+
+ .nav-link:hover {
+     color: #41E0D0;
+ }
+
+ .btn:active{
+     color: #41E0D0;
+ }
+
+ .FoodFactory {
+     color: white;
+ }
+ .FoodFactory:hover {
+     color: #41E0D0;
+ }
+
+ .Westland {
+     color: #41E0D0;
+ }
+ .Westland:hover {
+     color: white;
+ }

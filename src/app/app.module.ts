@@ -3,10 +3,22 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { NavbarComponent } from './layout/navbar/navbar.component';
+import { AboutComponent } from './static/about/about.component';
+import { CateringComponent } from './static/catering/catering.component';
+import { EventsComponent } from './static/events/events.component';
+import { ContactComponent } from './static/contact/contact.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    NavbarComponent,
+    AboutComponent,
+    CateringComponent,
+    EventsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,

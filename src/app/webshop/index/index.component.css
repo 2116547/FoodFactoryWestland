@@ -1,0 +1,22 @@
+#brand-image {
+    max-height: 275px;
+}
+
+.middle {
+    text-align: center;
+    color: white;
+   
+}
+
+button:hover {
+    color: #41E0D0;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.menu {
+    height: 687px;
+
+}

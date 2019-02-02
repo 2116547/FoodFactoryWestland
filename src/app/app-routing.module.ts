@@ -6,6 +6,9 @@ import { CateringComponent } from './static/catering/catering.component';
 import { EventsComponent } from './static/events/events.component';
 import { ContactComponent } from './static/contact/contact.component';
 import { IndexComponent } from './webshop/index/index.component';
+import { CarouselComponent } from './layout/carousel/carousel.component';
+import { LoginComponent } from './authentication/login/login.component';
+import { RegisterComponent } from './authentication/register/register.component';
 
 const routes: Routes = [
   //Homepage
@@ -34,9 +37,20 @@ const routes: Routes = [
     path:'contact',
     component: ContactComponent
   },
+  //Webshop Pages ------ Index
   {
     path:'webshop',
     component: IndexComponent
+  },
+
+  //Authentication Pages
+  {
+    path:'zippilogin',
+    component: LoginComponent
+  },
+  {
+    path:'zippiregister',
+    component: RegisterComponent
   }
 ];
 

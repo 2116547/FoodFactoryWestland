@@ -14,11 +14,11 @@ body {
 }
 
 .half-black {
-    background-color: rgba(0, 0, 0, 0.5)
+    background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
 .rounding{
-    border-radius:10px;
+    border-radius:10px !important;
 }
 
 button:hover {
@@ -34,3 +34,39 @@ p {
     font-size: 18px;
     padding-bottom: 20px;
   }
+
+  .btn-turk:hover {
+      background-color: white;
+      color: #41E0D0;
+  }
+
+  
+  .btn-turk {
+    background-color: #41E0D0;
+    color: white;
+}
+
+.scrollfield {
+    height: 80vh;
+    overflow-y: auto;
+}
+
+#style-2::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+#style-2::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color:  #41E0D0;
+}

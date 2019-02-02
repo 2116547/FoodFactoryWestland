@@ -1,0 +1,24 @@
+<div class="row pt-5">
+    <div class="col-md-6 mx-auto">
+      <div class="card rounding half-black">
+        <div class="card-header">
+          <h3 class="color-turk">
+            Log in WebZippi
+          </h3>
+        </div>
+        <div class="card-body">
+          <form class="form">
+            <div class="form-group">
+              <label for="">Gebruikersnaam</label>
+              <input [(ngModel)]="loginUserData.username" name="username" type="text" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="">Wachtwoord</label>
+              <input [(ngModel)]="loginUserData.password" name="password" type="password" class="form-control" required>
+            </div>
+            <button (click)="loginUser()" type="button" class="btn btn-turk float-right">Log in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>

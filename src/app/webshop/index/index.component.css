@@ -18,5 +18,10 @@ button:hover {
 
 .menu {
     height: 687px;
+}
 
+
+
+body, html {
+    height: 100%;
 }

@@ -17,4 +17,4 @@ const port = process.env.PORT || 3000;
 app.set('port', port);
 
 const server = http.createServer(app);
-server.listen(process.env.PORT || port, () => console.log('running'));
+server.listen(port, () => console.log('running'));

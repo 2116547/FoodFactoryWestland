@@ -70,3 +70,12 @@ p {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color:  #41E0D0;
 }
+
+.string-box{
+    width: 100%;
+    height: 50px;
+}
+
+.full-width {
+    width: 100%;
+}

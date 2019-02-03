@@ -23,13 +23,9 @@
               "src/assets"
             ],
             "styles": [
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
-            "scripts": [
-              "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
-              "https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-            ]
+            "scripts": []
           },
           "configurations": {
             "production": {
@@ -88,7 +84,7 @@
             ],
             "scripts": [
               "https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js",
-              "https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+              "https://maxcdn.bootstrapcdn.com/bootstrap/4.2.3/js/bootstrap.min.js"
             ],
             "assets": [
               "src/favicon.ico",

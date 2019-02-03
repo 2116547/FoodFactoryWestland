@@ -13,8 +13,8 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname + '/dist/FoodFactoryWestland/index.html'));
 });
 
-const port = process.env.PORT || port;
+const port = process.env.PORT || 3000;
 app.set('port', port);
 
 const server = http.createServer(app);
-server.listen(port, () => console.log('running'));
+server.listen(process.env.PORT || port, () => console.log('running'));

@@ -9,6 +9,7 @@ import { IndexComponent } from './webshop/index/index.component';
 import { CarouselComponent } from './layout/carousel/carousel.component';
 import { LoginComponent } from './authentication/login/login.component';
 import { RegisterComponent } from './authentication/register/register.component';
+import { AuthGuard } from './auth.guard';
 
 const routes: Routes = [
   //Homepage
@@ -50,7 +51,8 @@ const routes: Routes = [
   },
   {
     path:'zippiregister',
-    component: RegisterComponent
+    component: RegisterComponent,
+    canActivate: [AuthGuard]
   }
 ];
 

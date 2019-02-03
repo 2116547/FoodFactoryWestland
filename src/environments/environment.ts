@@ -3,7 +3,7 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  serverUrl: "https://siegewikibackend.herokuapp.com",
+  serverUrl: "https://ffw-backend.herokuapp.com",
   production: false
   
 };

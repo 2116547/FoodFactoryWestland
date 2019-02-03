@@ -1,4 +1,4 @@
 export const environment = {
-  serverUrl: "https://siegewikibackend.herokuapp.com",
+  serverUrl: "https://ffw-backend.herokuapp.com",
   production: true
 };

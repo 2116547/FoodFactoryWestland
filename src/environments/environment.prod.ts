@@ -1,4 +1,4 @@
 export const environment = {
-  serverUrl: "https://ffw-backend.herokuapp.com",
+  serverUrl: "http://ffw-backend.herokuapp.com/",
   production: true
 };

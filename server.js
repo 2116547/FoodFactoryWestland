@@ -4,8 +4,10 @@ const path = require('path');
 const cors = require('cors');
 
 const app = express();
+setTimeout(10000);
 
 app.use(cors)
+
 
 
 app.use(express.static(path.join(__dirname, 'dist/FoodFactoryWestland')));
